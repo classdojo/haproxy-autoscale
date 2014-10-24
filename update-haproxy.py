@@ -69,7 +69,7 @@ def main(args):
                       content=generate_haproxy_config(template=args.template,
                                                       instances=instances    ))
         
-        restart_haproxy(args)
+        #restart_haproxy(args)
         
     else:
         logging.info('Configuration unchanged. Skipping restart.')
